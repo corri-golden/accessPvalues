@@ -30,7 +30,16 @@ const beatles = {
     ]
 }
 
-
+// create variables for the keys
 let chris = beatles.members[1].name 
-console.log(`${chris}` + " was in the Beatles")
+let year = beatles.history.formed
+let over = beatles.history.disbanded
+let birth = beatles.members[1].birth
+let albums = beatles.albums[3]
 
+// used square bracket to create the sentence
+console.log(`${chris}` + " was in the Beatles from " + `${year}` + " to"  + ` ${over}` + "." + " He was born in " + `${birth}` + "." + " He contributed heavily to the " + `${albums}` + ".")
+
+
+
+//He was born in 1942. He contributed heavily to the Magical Myster Tour Album.
